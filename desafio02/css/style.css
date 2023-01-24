@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+:root {
+    --cor0:#61221C;
+    --cor1:#E68F87;
+    --cor2:#E04E41;
+    --cor3:#663A36;
+    --cor4:#AD3D32;
+
+    --fonte-padrao:'Shadows Into Light', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor4);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor4));
+    text-align: center;
+    min-height: 50px;
+    padding-top: 40px;
+}
+
+header > h1 {
+    color: white ;
+    font-weight: normal;
+    font-family: var(--fonte-padrao);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px black;
+}
+
+nav {
+    max-width: 600px; 
+    margin: auto;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: rgb(235, 7, 7)
+}
+
+button {
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+button :hover {
+    background-color: rgb(131, 21, 21); border-radius: 90px;cursor: pointer;
+}
