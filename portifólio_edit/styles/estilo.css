@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+body {
+    background: linear-gradient(80deg, black 51.04%, grey 51.05%);
+    font-family: poppinsregular;
+    
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background: rgba(196, 196, 196, 0.11);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.452);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Início {
+
+    padding-top: 10%;
+    padding-bottom: 100px;
+    width: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    }
+
+.text {
+    margin-right: 400px;
+}
+
+img {
+    margin-right: 10%;
+    width: 350px;
+    border-radius: 50px;
+}
+
+h4 {
+    font-family: poppinslight;
+    color: white;
+    font-weight: 50;
+}
+
+h3 {
+    font-family: poppinslight;
+    margin-top: %;
+    font-weight: 50;
+    color: white;
+}
+
+h2 {
+    font-family: poppinslight;
+    font-weight: 200;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+h1 {
+    font-size: 56px;
+    font-family: poppinsmedium;
+    color: white;
+}
+
+span {
+    padding-top: 7%;
+    font-size: 20px;
+    font-family: poppinsmedium;
+    color: white;
+}
+
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+
+.tittle {
+    margin-left: 10%;
+}
+
+#Linkedin-btn{
+    color: #0f0d0c;
+    width: 300px;
+    background-color: grey;
+    text-align: center;
+    border: 2px solid grey;
+    margin: p 90px ;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: poppinsmedium;
+}
+
+#Linkedin-btn:hover{
+    background-color: #0f0d0c;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #0f0d0c;
+    transition: 0.3s all;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: row-reverse;
+    background: linear-gradient(to top, grey, black);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 18%;
+    height: 100vh;
+
+
+}
+
+.sobretext {
+    margin-top:20%;
+    font-weight: 200px;
+}
+
+.myimage {
+    padding-bottom: 10%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.projects {
+    background: linear-gradient(to bottom, black, grey);
+    height: 100vh;
+    text-align: center;
+    padding-top: 18%;
+}
